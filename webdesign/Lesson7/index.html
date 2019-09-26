@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+	<style type="text/css">
+		.gallery{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+
+			/*NEW STUFF*/
+			margin-left: 50%;
+			transform: translateX(-50%);
+			width: 50%;
+		}
+
+		.imageCard p{
+			text-align: center;
+		}
+
+		.imageCard img{
+			width: 20em;
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<section class="gallery">
+			<!-- Image 1 -->
+			<div class="imageCard">
+				<img src="pika.jpg">
+				<p>This is an image</p>
+			</div>
+			<!-- Image 2 -->
+			<div class="imageCard">
+				<img src="pika.jpg">
+				<p>This is an image</p>
+			</div>
+			<!-- Image 3 -->
+			<div class="imageCard">
+				<img src="pika.jpg">
+				<p>This is an image</p>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
